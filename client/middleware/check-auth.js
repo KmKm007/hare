@@ -8,7 +8,7 @@ export default async ({
   // If nuxt generate, pass this middleware
   if (process.static) return
   const maybeReq = process.server ? req : null
-  const hasSession = maybeReq !== null && !!maybeReq.session
+  const hasSession = maybeReq !== null && !!maybeReq.session.USER
   let maybeAuthenticated = await store.getters.authenticated
   if (hasSession === true && maybeAuthenticated === false) {
     const { data } = await $axios.get('/hpi/auth/whois')

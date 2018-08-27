@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-main">
-        <p class="footer-main-title">Hare 2.0</p>
+        <p class="footer-main-title">Vue-SSR</p>
         <a href="//github.com/clarkdo/hare/issues" class="footer-main-link" target="_blank">Feedback</a>
         <a href="//github.com/clarkdo/hare/graphs/contributors" class="footer-main-link" target="_blank">Contributors</a>
       </div>
